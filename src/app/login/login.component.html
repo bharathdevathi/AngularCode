@@ -1,0 +1,31 @@
+<div>
+    <img class="headerLogo" src="../../assets/logo.jpg">
+</div>
+<div class="testbox">
+    <div class="testbox1">
+        <form>
+            
+            <br/>
+            <div style="text-align: center;margin:50px 0px 0px 0px">
+                <h2>Login here</h2>
+                <br />
+                <div>
+                    <div style="font-weight: bolder;">
+                        <input required class='form-text' placeholder="Username" type='text' [(ngModel)]="myusername"
+                            name="userName" />
+                    </div>
+                </div>
+                <div>
+                    <div style="font-weight: bolder;">
+                        <input required class="form-text" type='password' placeholder="Password"
+                            [(ngModel)]="mypassword" name="password" />
+                    </div>
+                </div>
+                <br />
+                <input type="submit" value="Login" class="button" (click)='mylogin()' />
+            </div>
+            
+        </form>
+    </div>
+</div>
+<router-outlet></router-outlet>

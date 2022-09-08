@@ -1,0 +1,47 @@
+table, td, th{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+table{
+    border-collapse: collapse;
+    width:95.2% ;
+    margin-top:20px;
+    margin-left:25px ;
+}
+th{
+    height:30px;
+    background-color: rgb(233, 80, 24);
+    color: white;
+    
+}
+h3{
+    margin:0px 0px 0px 0px ;
+}
+tr{
+    background-color:white;
+    color: black;
+    border-collapse: collapse;
+}
+.fa{
+    font-size: 22px;
+    margin-top: 8px;
+}
+.piechart {
+    display: block;
+    width:260px;
+    height:245px;
+    border-radius: 50%;
+    background-image: conic-gradient(
+        pink 70deg, 
+        lightblue 0 235deg, 
+        orange 0);
+}
+
+.headerLogo{
+    width: 15%;
+    height: 133px;
+    margin: 15px 0 0 1005px;;
+}
+tr:nth-child(odd){
+    background-color:burlywood;
+}

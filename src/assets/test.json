@@ -1,0 +1,44 @@
+
+[
+    {
+      "incident": "LKT1223",
+   "incidentDetails": "Forget password or reset",
+   "rootCause": "",
+   "solution": "m",
+    "raisedBy":"Chandu",
+   "raisedDate":"10/10/2021",
+   "assingedTo":"Bharth",
+   "assignedDate":"10/10/2021",
+   "closedDate":"",
+   "closedBy":"",
+   "status":"New"
+    },
+   {
+      "incident": "LKT1224",
+   "incidentDetails": "Unable to Login to website",
+   "rootCause": "Server Done",
+   "solution": "",
+    "raisedBy":"Venu",
+   "raisedDate":"10/10/2021",
+   "assingedTo":"Bharth",
+   "assignedDate":"10/10/2021",
+   "closedDate":"",
+   "closedBy":"",
+   "status":"Pending"
+    },
+   {
+      "incident": "LKT1225",
+   "incidentDetails": "Network or signal dropped",
+   "rootCause": "Due to bad weather ",
+   "solution": "Upgraded network router",
+    "raisedBy":"Venu",
+   "raisedDate":"10/10/2021",
+   "assingedTo":"Bharth",
+   "assignedDate":"10/10/2021",
+   "closedBy":"Venu",
+   "closedDate":"10/10/2021",
+   "status":"Closed"
+    }
+   
+   
+   ]

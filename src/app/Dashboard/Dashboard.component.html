@@ -1,0 +1,65 @@
+
+<div style=" margin: 20px 2px -75px 38px;border-radius:6px;background: #e7efef;box-shadow: 0 0 8px #e7efef;">
+    <span>
+        <img class="headerLogo" src="../../assets/logo.jpg">
+        <app-headercontrol></app-headercontrol>
+    </span>
+</div>
+<!--<h1 style="text-align:center;padding:30px;font-family:roboto !important;">Customer Automated Support System</h1>-->
+<!--<h1>Pie Chart</h1>
+    <div class="piechart"></div>-->
+<div style="background-color: rgb(233, 80, 24);background-color: rgb(233, 80, 24);padding: 8px 12px;margin-bottom: -15px;margin-top:-144px;margin-left:25px ;" class="fa fa-search">
+    <span><input type="text" style="padding: 14px 980px 12px 13px;margin-left:10px;" placeholder="Search Table"></span></div>
+<table>
+    <tr>
+        <th>
+            Incident #
+        </th>
+        <th>
+            Incident Details
+        </th>
+        <th>
+            Root Cause
+        </th>
+        <th>
+            Solution
+        </th>
+        <th>
+            Requested Date
+        </th>
+        <th>
+            Requested By
+        </th>
+        <th>
+            Assigned Date 
+        </th>
+        <th>
+            Closed Date
+        </th>
+        <th>
+            Status
+        </th>
+        <th>
+            Support Engineer
+        </th>
+    </tr>
+<tr *ngFor="let record of requestdata">
+    <td> {{record.incident}}</td>
+    <td> {{record.incidentDetails}}</td>
+    <td>{{record.rootCause}}</td>
+    <td>{{record.solution}}</td>
+    <td>{{record.raisedDate}}</td>
+    <td>{{record.raisedBy}}</td>
+    <td>{{record.closedDate}}</td>
+    <td>{{record.assignedDate}}</td>
+    <td>{{record.status}}</td>
+    <td>{{record.assingedTo}}</td>
+    
+
+    
+    
+</tr>  
+</table>
+
+<p>{{testresult()}}</p>
+
